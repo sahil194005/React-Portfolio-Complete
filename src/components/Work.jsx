@@ -1,6 +1,9 @@
 import React from "react";
 import Working from "../assets/projects/workImg.jpeg";
 import realEstate from "../assets/projects/realestate.jpg";
+import DalleClone from '../assets/DalleClone.png'
+import Ecommerce from '../assets/Ecommerce.png'
+import ExpenseTracker from '../assets/ExpenseTracker.png'
 const Work = () => {
 	return (
 		<div
@@ -22,20 +25,20 @@ const Work = () => {
 					className="grid gap-4 sm:grid-cols-2 ">
 					{/* grid item */}
 					<div
-						style={{ backgroundImage: `url(${Working})` }}
+						style={{ backgroundImage: `url(${ExpenseTracker})` }}
 						className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div mb-4">
 						{/* hover effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
+								Expense Tracker
 							</span>
 							<div className=" pt-8 text-center">
-								<a href="/">
+								<a href="https://64f78cf628f3e025147a8759--expensetrackerimzee.netlify.app/">
 									<button className="text-center border rounded-lg px-4 py-2 m-2  text-white font-bold text-lg">
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/sahil194005/expense-tracker-charts">
 									<button className="text-center border rounded-lg px-4 py-2 m-2 text-white font-bold text-lg">
 										Code
 									</button>
@@ -44,20 +47,20 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${realEstate})` }}
+						style={{ backgroundImage: `url(${Ecommerce})` }}
 						className=" mb-4 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 						{/* hover effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
+								Ecommerce Website
 							</span>
 							<div className=" pt-8 text-center">
-								<a href="/">
+								<a href="https://ecommerce-react-complete.vercel.app/">
 									<button className="text-center border rounded-lg px-4 py-2 m-2  text-white font-bold text-lg">
 										Demo
 									</button>
 								</a>
-								<a href="/">
+								<a href="https://github.com/sahil194005/ecommerce-React-complete">
 									<button className="text-center border rounded-lg px-4 py-2 m-2 text-white font-bold text-lg">
 										Code
 									</button>
@@ -66,42 +69,20 @@ const Work = () => {
 						</div>
 					</div>
 					<div
-						style={{ backgroundImage: `url(${Working})` }}
+						style={{ backgroundImage: `url(${DalleClone})` }}
 						className=" mb-4 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 						{/* hover effects */}
 						<div className="opacity-0 group-hover:opacity-100">
 							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
+								Dall-E Clone
 							</span>
 							<div className=" pt-8 text-center">
-								<a href="/">
+								<a href="https://gentle-travesseiro-248cb4.netlify.app/">
 									<button className="text-center border rounded-lg px-4 py-2 m-2  text-white font-bold text-lg">
 										Demo
 									</button>
 								</a>
-								<a href="/">
-									<button className="text-center border rounded-lg px-4 py-2 m-2 text-white font-bold text-lg">
-										Code
-									</button>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div
-						style={{ backgroundImage: `url(${Working})` }}
-						className=" mb-4 shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-						{/* hover effects */}
-						<div className="opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-								React JS Application
-							</span>
-							<div className=" pt-8 text-center">
-								<a href="/">
-									<button className="text-center border rounded-lg px-4 py-2 m-2  text-white font-bold text-lg">
-										Demo
-									</button>
-								</a>
-								<a href="/">
+								<a href="https://github.com/sahil194005/DALL-E-clone">
 									<button className="text-center border rounded-lg px-4 py-2 m-2 text-white font-bold text-lg">
 										Code
 									</button>
